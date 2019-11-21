@@ -30,8 +30,8 @@ namespace PdfEditorTest
             reader = new PdfReader(source);
             reader.SetUnethicalReading(true);
 
-            writer = new PdfWriter(destination + "Sample.pdf");
-            pdfDoc = new PdfDocument(reader, writer);
+            ///writer = new PdfWriter(destination + "Sample.pdf");
+            pdfDoc = new PdfDocument(reader);
             form = PdfAcroForm.GetAcroForm(pdfDoc, true);
             sourcePDFFields = form.GetFormFields();
 

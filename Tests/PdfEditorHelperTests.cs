@@ -17,7 +17,7 @@ namespace Tests
         }
 
         /// <summary>
-        /// test to get all editable fields from source form
+        /// test to get all editable fields from source form - have to copy from output
         /// </summary>
         [Test]
         public void GetAllFieldFromPdfSourceTest()
